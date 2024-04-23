@@ -110,24 +110,21 @@ export const NavigationBar = styled.div`
   left: 50%;
   transform: translateX(-50%);
   width: 150px;
-  height: 50px;
+  padding: 20px 0;
   border-radius: 12px;
-
   background-color: rgba(0, 0, 0, 0.6);
-  line-height: 50px;
-  @media ${({ theme }) => theme.windowSize.medium} {
-    width: 80px;
-    height: 25px;
-    line-height: 25px;
-    font-size: 12px;
-    bottom: 2%;
-  }
+
   @media ${({ theme }) => theme.windowSize.large} {
     width: 120px;
-    height: 40px;
-    line-height: 40px;
     font-size: 12px;
     bottom: 2%;
+    padding: 16px 0;
+  }
+  @media ${({ theme }) => theme.windowSize.medium} {
+    width: 100px;
+    font-size: 12px;
+    bottom: 2%;
+    padding: 12px 0;
   }
   p {
     display: flex;

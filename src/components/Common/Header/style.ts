@@ -123,8 +123,7 @@ export const Menus = styled.div<{ $isClicked: boolean }>`
 
     div {
       width: 100%;
-      height: 56px;
-      line-height: 56px;
+      line-height: 48px;
       text-align: center;
       transform: translateY(${({ $isClicked }) => ($isClicked ? "0%" : "-100%")});
       transition: transform 0.3s ease-in-out;
@@ -132,8 +131,6 @@ export const Menus = styled.div<{ $isClicked: boolean }>`
         display: inline-block;
         color: ${({ theme }) => theme.color.primary_light};
         width: 90%;
-        height: 80%;
-        line-height: 44.8px;
         border-radius: 10px;
         z-index: 100;
 
@@ -143,7 +140,6 @@ export const Menus = styled.div<{ $isClicked: boolean }>`
         }
       }
       .active {
-        /* color: ${({ theme }) => theme.color.secondary_light}; */
         color: #242424;
         background-color: ${({ theme }) => theme.color.primary_light};
       }

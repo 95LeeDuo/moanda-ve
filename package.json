@@ -12,6 +12,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.28.9",
     "@tanstack/react-query-devtools": "^5.28.10",
+    "@vercel/analytics": "^1.2.2",
     "axios": "^1.6.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

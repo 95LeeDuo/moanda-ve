@@ -209,7 +209,6 @@ export const SwiperPagination = styled(Link)`
     bottom: -30px;
     max-width: 400px;
     width: 100%;
-    height: 60px;
     background-color: #242424;
     z-index: 10;
     color: ${({ theme }) => theme.color.primary_light};

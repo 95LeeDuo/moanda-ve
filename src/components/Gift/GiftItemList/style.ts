@@ -22,8 +22,7 @@ export const GiftItems = styled.div`
   font-family: "NanumSquareNeo";
   font-weight: 400;
   font-style: normal;
-  span {
-  }
+
   h1 {
     font-size: 50px;
   }
@@ -47,7 +46,7 @@ export const Contact = styled.div`
   align-items: center;
   justify-content: center;
   gap: 50px;
-  margin: 50px;
+  margin: 20px;
   @media ${({ theme }) => theme.windowSize.medium} {
     flex-direction: column;
     gap: 10px;
@@ -56,21 +55,24 @@ export const Contact = styled.div`
     display: flex;
     align-items: center;
     cursor: pointer;
+    gap: 16px;
+    font-size: 18px;
     @media ${({ theme }) => theme.windowSize.medium} {
-      font-size: 12px;
+      font-size: 16px;
     }
     p {
       line-height: 50px;
       padding-left: 10px;
+      color: #555;
     }
   }
   img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     @media ${({ theme }) => theme.windowSize.medium} {
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
     }
   }
 
@@ -257,10 +259,8 @@ export const GiftItemInfo = styled.div`
   margin-bottom: 20px;
   line-height: 20px;
 
-  div {
-    p {
-      font-size: 13px;
-      color: #b1825e;
-    }
+  p {
+    font-size: 13px;
+    color: #b1825e;
   }
 `;

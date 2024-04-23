@@ -69,7 +69,7 @@ const InstaModal = ({ data, closeModal }: { data: IResInstagram; closeModal: () 
           {data.media_type === "IMAGE" && <img src={data.media_url} />}
           {data.media_type === "VIDEO" && (
             <>
-              <video src={data.media_url} autoPlay muted loop ref={videoRef} />
+              <video src={data.media_url} autoPlay muted loop playsInline ref={videoRef} />
               <div className="sound-button" onClick={handleClickMuted}>
                 {isMuted ? <ImVolumeMute2 size="25" color="#fff" /> : <ImVolumeMedium size="25" color="#fff" />}
               </div>

@@ -8,7 +8,7 @@ const VeganDescription = () => {
     <>
       <S.Container>
         <S.ImageContainer>
-          <img src="/Intro/outside_5.jpg" />
+          <img src="/Intro/outside_9.jpg" />
         </S.ImageContainer>
         <S.DescriptionContaier>
           <IntroHeader headerText="비건이란?" />

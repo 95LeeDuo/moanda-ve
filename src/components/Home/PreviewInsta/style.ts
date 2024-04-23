@@ -37,7 +37,8 @@ export const Header = styled.h1`
 `;
 
 export const InstaWrapper = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   max-width: 1000px;
   gap: 20px;
 `;

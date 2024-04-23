@@ -6,7 +6,6 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import { useEffect, useRef, useState } from "react";
-import { IoCall } from "react-icons/io5";
 import constant from "@/constants/base.json";
 
 const GiftItemList = () => {
@@ -29,7 +28,6 @@ const GiftItemList = () => {
       setSwiperView(1);
     }
   };
-  console.log(swiperView);
 
   useEffect(() => {
     handleResize();
@@ -77,21 +75,9 @@ const GiftItemList = () => {
   return (
     <S.GiftItems ref={containerRef}>
       <S.Contact>
-        <a href={`tel:${constant.Contact}`}>
-          <div>
-            <button>
-              <IoCall className="call" />
-            </button>
-            <p>{constant.Contact}</p>
-          </div>
-        </a>
-        <div onClick={() => window.open(constant.Instagram)}>
-          <img src="/Logo/instagram.png" />
-          <p>moanda_ve</p>
-        </div>
         <div onClick={() => window.open(constant.KakaoChannel)}>
+          <p>답례품 문의</p>
           <img src="/Logo/kakao.png" />
-          <p>모앤더비</p>
         </div>
       </S.Contact>
       <S.GiftLine></S.GiftLine>
@@ -136,6 +122,7 @@ const GiftItemList = () => {
                 <p>* {data}</p>
               </div>
             ))}
+            <p>* 모든 이미지는 참고용입니다.</p>
           </S.GiftItemInfo>
         </S.GiftItem>
       ))}

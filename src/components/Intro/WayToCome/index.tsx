@@ -23,7 +23,7 @@ const WayToCome = () => {
             <h3>매장 주소</h3>
             <span>{constant_base.Address}</span>
             <br />
-            <span className="clickNotice">지도의 핀을 클릭하면 카카오맵으로 이동합니다.</span>
+            <span className="clickNotice">지도를 클릭하시면 카카오맵으로 이동합니다.</span>
           </div>
           <div className="parking">
             <h3>주차장 안내</h3>

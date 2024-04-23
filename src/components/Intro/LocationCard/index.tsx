@@ -8,11 +8,9 @@ const LocationCard = () => {
       <Map
         center={{ lat: constant_base.Latitude, lng: constant_base.Longitude }}
         style={{ width: "100%", height: "100%", borderRadius: "10px" }}
+        onClick={() => window.open(`https://map.kakao.com/link/to/${constant_base.KakaoLocationID}`)}
       >
-        <MapMarker
-          position={{ lat: constant_base.Latitude, lng: constant_base.Longitude }}
-          onClick={() => window.open(`https://map.kakao.com/link/to/${constant_base.KakaoLocationID}`)}
-        ></MapMarker>
+        <MapMarker position={{ lat: constant_base.Latitude, lng: constant_base.Longitude }}></MapMarker>
       </Map>
     </S.LocationCardContainer>
   );

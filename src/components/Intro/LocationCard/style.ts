@@ -7,4 +7,10 @@ export const LocationCardContainer = styled.div`
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   width: 100%;
+
+  #__react-kakao-maps-sdk___Map {
+    div {
+      cursor: pointer;
+    }
+  }
 `;

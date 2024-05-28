@@ -36,7 +36,7 @@ const GiftForm = () => {
           </div>
         </div>
       </S.ImageContainer> */}
-      <img src="./gift/_poster.png" alt="안내포스터" className="poster" />
+      <img src="./gift/poster.png" alt="안내포스터" className="poster" />
 
       <GiftItemList />
     </S.GiftContainer>

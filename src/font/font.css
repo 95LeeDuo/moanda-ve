@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "NanumSquareNeo";
+  font-family: "NanumSquareNeos";
   font-style: normal;
-  font-weight: 400;
-  src: url("./NanumSquareNeo-Variable.woff") format("woff");
+  font-weight: normal;
+  /* src: url("../styles/NanumSquareNeo.ttf") format("truetype"); */
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
 }
 
 @font-face {
@@ -13,43 +14,15 @@
 }
 
 @font-face {
-  font-family: "LilitaOne";
-  font-style: normal;
-  font-weight: 600;
-  src: url("./LilitaOne.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Alata";
-  font-style: normal;
-  font-weight: 600;
-  src: url("./Alata.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Jua";
-  font-style: normal;
-  font-weight: 600;
-  src: url("./Jua.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Catamaran";
-  font-style: normal;
-  font-weight: 600;
-  src: url("./Catamaran.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'TTLaundryGothicB';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+  font-family: "TTLaundryGothicB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Adultkid";
+  font-family: 'NanumSquareNeo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 600;
-  src: url("./Adultkid.ttf") format("truetype");
 }
